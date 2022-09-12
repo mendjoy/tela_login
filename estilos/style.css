@@ -51,3 +51,32 @@ section#login > div#form{
     padding: 10px;
     display: block;
 }
+p{
+    margin: 10px;
+}
+#iemail, #isenha {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.384);
+}
+
+.button{
+    background-color: #3DD1E7;
+    border-radius: 20px;
+    border: none;
+    padding: 15px;
+    width: 150px;
+    margin:  10px auto;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 15px;
+    }
+
+.button:hover{
+    background-color: #1b9aaa;
+}

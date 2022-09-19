@@ -77,10 +77,11 @@ p{
     font-weight: bold;
     font-size: 18px;
     line-height: 15px;
-    }
+ }
 
 .button:hover{
-    background-color: #1b9aaa;
+    background-image: linear-gradient(to top, #1b9aaa,  #06d6a0, #ffc43d, #ef476f);
+    
 }
 
 /*tablet*/
@@ -102,6 +103,29 @@ p{
         float: right;
         width: 70%;
     }
+    #iemail, #isenha {
+        padding: 10px;
+        margin: 5px;
+        border-radius: 20px;
+        border: 1px solid rgba(0, 0, 0, 0.384);
+        width: 80%;
+        margin-left: 40px;
+    }
+
+    .button{
+        display: inline-block;
+        margin-top: 100px;
+        width: 200px;
+    }
+
+    #signup{
+        margin-left: 40px;
+    }
+
+    h1, p {
+        margin-top: 40px;
+        margin-left: 40px;
+    }
     
     
 }
@@ -122,6 +146,30 @@ p{
     section#login > div#form{
         float: right;
         width: 50%;
+    }
+
+    #iemail, #isenha {
+        padding: 10px;
+        margin: 5px;
+        border-radius: 20px;
+        border: 1px solid rgba(0, 0, 0, 0.384);
+        width: 80%;
+        margin-left: 40px;
+    }
+
+    .button{
+        display: inline-block;
+        margin-top: 100px;
+        width: 200px;
+    }
+
+    #signup{
+        margin-left: 40px;
+    }
+
+    h1, p {
+        margin-top: 40px;
+        margin-left: 40px;
     }
     
 }

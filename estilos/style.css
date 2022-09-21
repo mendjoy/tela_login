@@ -30,7 +30,7 @@ main {
 section#login{
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 530px;
     border-radius: 25px;
     position: absolute;
     top: 50%;
@@ -60,6 +60,7 @@ p{
     padding: 5px;
     margin: 5px;
     border-radius: 20px;
+    width: 180px;
     border: 1px solid rgba(0, 0, 0, 0.384);
 }
 
@@ -67,8 +68,8 @@ p{
     background-color: #3DD1E7;
     border-radius: 20px;
     border: none;
-    padding: 15px;
-    width: 150px;
+    padding: 8px;
+    width: 100px;
     margin:  10px auto;
     display: flex;
     position: relative;
@@ -77,11 +78,27 @@ p{
     font-weight: bold;
     font-size: 18px;
     line-height: 15px;
+    display: inline-block;
  }
 
+ 
 .button:hover{
-    background-image: linear-gradient(to top, #1b9aaa,  #06d6a0, #ffc43d, #ef476f);
+    background-image: linear-gradient(to top, #1b9aaa,  #06d6a0, #ffc43d, #ef476f);    
+}
+
+div#form > h1 {
+    text-align: center;
+}
+
+.link{
+    text-decoration: none;
+    font-size: 1rem;
+
     
+}
+
+.link:hover{
+    text-decoration: underline;
 }
 
 /*tablet*/
@@ -102,13 +119,14 @@ p{
     section#login > div#form{
         float: right;
         width: 70%;
+        height: 100%;
     }
     #iemail, #isenha {
         padding: 10px;
         margin: 5px;
         border-radius: 20px;
         border: 1px solid rgba(0, 0, 0, 0.384);
-        width: 80%;
+        width: 75%;
         margin-left: 40px;
     }
 
@@ -139,12 +157,12 @@ p{
 
     }
     section#login > div#img{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
     section#login > div#form{
-        float: right;
+        float: left;
         width: 50%;
     }
 

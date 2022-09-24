@@ -79,6 +79,7 @@ p{
     font-size: 18px;
     line-height: 15px;
     display: inline-block;
+    box-shadow: 2px solid rgba(0, 0, 0, 0.479);
  }
 
  
@@ -90,16 +91,18 @@ div#form > h1 {
     text-align: center;
 }
 
-.link{
+#link{
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 0.8rem;
+    padding: 40px;
 
     
 }
 
-.link:hover{
+#link:hover{
     text-decoration: underline;
 }
+
 
 /*tablet*/
 @media screen  and (min-width:768px ) and (max-width: 992px){
